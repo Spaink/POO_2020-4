@@ -1,4 +1,4 @@
-package aula01;
+package Sala_de_aula01;
 
 import java.text.DecimalFormat;
 
