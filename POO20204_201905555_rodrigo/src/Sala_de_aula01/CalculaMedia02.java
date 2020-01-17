@@ -4,62 +4,51 @@ import java.text.DecimalFormat;
 
 import Sala_de_aula01.Aluno;
 
-class Aluno{
-	String nome;
-	double nota1;
-	double nota2;
-	double nota3;
-	double media;
-}
 public class CalculaMedia02 {
 	public static void main(String[] args) {
 		
-		Aluno estudante1;
-		estudante1 = new Aluno();
+		Aluno a1 = new Aluno();
 		
-		Aluno estudante2;
-		estudante2 = new Aluno();
+		Aluno a2 = new Aluno();
 		
-		Aluno estudante3;
-		estudante3 = new Aluno();
+		Aluno a3 = new Aluno();
 		
-		Aluno estudante4;
-		estudante4 = new Aluno();
+		Aluno a4 = new Aluno();
 		
-		estudante1.nome = "Carlos";
-		estudante2.nome = "André";
-		estudante3.nome = "Marcio";
-		estudante4.nome = "Leandro";
+		a1.nome = "Carlos";
+		a2.nome = "André";
+		a3.nome = "Marcio";
+		a4.nome = "Leandro";
 		
-		estudante1.nota1 = 6.0;
-		estudante1.nota2 = 7.8;
-		estudante1.nota3 = 5.5;
+		a1.nota1 = 6.0;
+		a1.nota2 = 7.8;
+		a1.nota3 = 5.5;
 		
-		estudante2.nota1 = 7.0;
-		estudante2.nota2 = 3.8;
-		estudante2.nota3 = 2.5;
+		a2.nota1 = 7.0;
+		a2.nota2 = 3.8;
+		a2.nota3 = 2.5;
 		
-		estudante3.nota1 = 6.6;
-		estudante3.nota2 = 5.8;
-		estudante3.nota3 = 9.5;
+		a3.nota1 = 6.6;
+		a3.nota2 = 5.8;
+		a3.nota3 = 9.5;
 		
-		estudante4.nota1 = 3.0;
-		estudante4.nota2 = 3.8;
-		estudante4.nota3 = 9.5;
+		a4.nota1 = 3.0;
+		a4.nota2 = 3.8;
+		a4.nota3 = 9.5;
 		
-		estudante1.media = (estudante1.nota1 + estudante1.nota2 + estudante1.nota3)/3;
-		estudante2.media = (estudante2.nota1 + estudante2.nota2 + estudante2.nota3)/3;
-		estudante3.media = (estudante3.nota1 + estudante3.nota2 + estudante3.nota3)/3;
-		estudante4.media = (estudante4.nota1 + estudante4.nota2 + estudante4.nota3)/3;
+		double m1 = a1.media(a1.nota1,a1.nota2,a1.nota3);
+		double m2 = a2.media(a2.nota1,a2.nota2,a2.nota3);
+		double m3 = a3.media(a3.nota1,a3.nota2,a3.nota3);
+		double m4 = a4.media(a4.nota1,a4.nota2,a4.nota3);
 		
-		double mediaGeral = (estudante1.media + estudante2.media + estudante3.media + estudante4.media)/4;
+		double mediaGeral = (m1 + m2 + m3 + m4)/4;
 		
 		DecimalFormat df = new DecimalFormat("#,###.00");
 		
-		System.out.println("Média de " + estudante1.nome + " = " + df.format(estudante1.media));
-		System.out.println("Média de " + estudante2.nome + " = " + df.format(estudante2.media));
-		System.out.println("Média de " + estudante3.nome + " = " + df.format(estudante3.media));
-		System.out.println("Média de " + estudante4.nome + " = " + df.format(estudante4.media));
+		System.out.println("Média de " + a1.nome + " = " + df.format(m1));
+		System.out.println("Média de " + a2.nome + " = " + df.format(m2));
+		System.out.println("Média de " + a3.nome + " = " + df.format(m3));
+		System.out.println("Média de " + a4.nome + " = " + df.format(m4));
 		
 		System.out.println("Média Geral = " + df.format(mediaGeral));
 		
