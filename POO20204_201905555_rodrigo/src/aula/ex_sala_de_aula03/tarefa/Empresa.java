@@ -20,4 +20,11 @@ public class Empresa {
 	public void setCnpj(String cnpj) {
 		this.cnpj = cnpj;
 	}
+	
+	public String toString() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("\nNome: " + this.getNome());
+		sb.append("\nCNPJ: " + this.getCnpj());
+		return sb.toString();
+	}
 }
