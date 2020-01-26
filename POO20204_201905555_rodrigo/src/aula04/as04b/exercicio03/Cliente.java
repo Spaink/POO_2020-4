@@ -1,4 +1,4 @@
-package aula04.as04b.exercicio04;
+package aula04.as04b.exercicio03;
 
 public class Cliente {
 	
