@@ -9,7 +9,6 @@ public class Endereco {
 	private Logradouro logradouro;
 	
 	public Endereco(String numero, String complemento, Integer cep, String tipo, Bairro bairro, Logradouro log) {
-		super();
 		this.numero = numero;
 		this.complemento = complemento;
 		this.cep = cep;
