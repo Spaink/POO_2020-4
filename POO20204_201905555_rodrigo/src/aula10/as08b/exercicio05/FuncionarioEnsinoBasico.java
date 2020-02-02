@@ -1,18 +1,19 @@
-package aula10.as08b.exercicio02;
+package aula10.as08b.exercicio05;
 
 import java.text.DecimalFormat;
 
-public class FuncionarioEnsinoMedio extends Funcionario {
+public class FuncionarioEnsinoBasico extends Funcionario {
 	
-	private double salarioFem = (salarioBasico*1.10)*1.50;
+	private  double salarioFeb = (salarioBasico*1.10);
 	private String escola;
-	private double salario = salarioFem;
+	private double salario = salarioFeb;
+
 	
 	public double getSalario() {
 		return salario + getComissao();
 	}
-	
-	public FuncionarioEnsinoMedio(String nome, int codigo, String e) {
+
+	public FuncionarioEnsinoBasico(String nome, int codigo, String e) {
 		super(nome, codigo);
 		this.escola = e;
 		// TODO Auto-generated constructor stub
@@ -20,7 +21,7 @@ public class FuncionarioEnsinoMedio extends Funcionario {
 	
 	//Referente ao exercicio 08
 	
-	public FuncionarioEnsinoMedio(String nome, int codigo, double comissao, String escola) {
+	public FuncionarioEnsinoBasico(String nome, int codigo, double comissao, String escola) {
 		super(nome, codigo, comissao);
 		this.escola = escola;
 	}

@@ -1,4 +1,4 @@
-package aula10.as08b.exercicio02;
+package aula10.as08b.exercicio05;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

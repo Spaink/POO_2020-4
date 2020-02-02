@@ -1,4 +1,4 @@
-package aula10.as08b.exercicio01;
+package aula10.as08b.exercicio04;
 
 public class Urso extends Animal {
 
