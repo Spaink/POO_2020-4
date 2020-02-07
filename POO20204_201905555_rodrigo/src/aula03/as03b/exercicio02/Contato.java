@@ -7,6 +7,14 @@ public class Contato {
 	private float altura;
 	private int chave;
 	
+	public Contato(String nome, int idade,float altura) {
+		this.nome = nome;
+		this.idade = idade;
+		this.altura = altura;
+	}
+	
+	public Contato() {}
+	
 	public String getNome() {
 		return nome;
 	}

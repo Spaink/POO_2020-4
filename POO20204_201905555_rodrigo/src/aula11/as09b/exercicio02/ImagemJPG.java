@@ -10,10 +10,10 @@ public class ImagemJPG extends Imagem {
 	}
 
 	public void exibir() {
-		super.exibir();
+		System.out.println("Exibindo imagem por 20 segundos.");
 	}
 
 	public void fechar() {
-		super.fechar();
+		System.out.println("Fechando imagem.");
 	}
 }

@@ -12,6 +12,8 @@ public class Pessoa {
 	
 	SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
 	
+	public Pessoa(){}
+	
 	public String getNome() {
 		return nome;
 	}
@@ -47,7 +49,7 @@ public class Pessoa {
 		return bf.toString();
 	}
 	
-	int calulaIdade(int dia, int mes, int ano) {
+	int calculaIdade(int dia, int mes, int ano) {
 		int  maior, menor;
 		Date data = new Date();
 		

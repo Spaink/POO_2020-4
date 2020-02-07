@@ -24,7 +24,7 @@ public class TestaPessoa {
 		
 		p1.setAltura(1.80);
 		
-		p1.calulaIdade(24, 5, 1999);
+		p1.calculaIdade(24, 5, 1999);
 		
 		System.out.println("Seus dados são: ");
 		System.out.println(p1.toString());	

@@ -11,6 +11,10 @@ public class Agenda {
 	public Agenda() {
 		
 	}
+	public void adicionaPessoa(String nome, int idade, float altura) {
+		Contato c = new Contato(nome,idade,altura);
+		listaContatos.add(c);
+	}
 	public List<Contato> getListaContatos() {
 		return listaContatos;
 	}
