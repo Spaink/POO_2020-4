@@ -1,4 +1,4 @@
-package aula12.ex_sala_de_aula12.adapter;
+package aula12.ex_sala_de_aula12.observer;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package aula12.ex_sala_de_aula12.adapter;
+package aula12.ex_sala_de_aula12.observer;
 
 import java.util.Observable;
 import java.util.Observer;
