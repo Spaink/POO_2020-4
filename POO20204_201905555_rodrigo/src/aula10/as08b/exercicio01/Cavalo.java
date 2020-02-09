@@ -17,4 +17,7 @@ public class Cavalo extends Animal {
 		System.out.println(" O cavalo está correndo.");
 	}
 	
+	public String som() {
+		return "O cavalo está emitindo algum som!!!";
+	}
 }

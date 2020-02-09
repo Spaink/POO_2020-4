@@ -28,5 +28,6 @@ public abstract class Animal {
 	
 	public abstract void emitirSom();
 	public abstract void correr();
+	public abstract String som();
 	
 }

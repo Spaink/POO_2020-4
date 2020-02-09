@@ -5,4 +5,8 @@ public class Veterinario {
 	public void examinar(Animal a) {
 		a.emitirSom();
 	}
+	
+	public String examina(Animal a) {
+		return a.som();
+	}
 }

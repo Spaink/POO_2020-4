@@ -16,7 +16,10 @@ public class Tigre extends Animal {
 	@Override
 	public void correr() {
 		System.out.println("Tigre correndo");
-
+	}
+	
+	public String som() {
+		return "Tigre emitindo som";
 	}
 	
 }

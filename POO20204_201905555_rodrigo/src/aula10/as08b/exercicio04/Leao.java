@@ -16,7 +16,10 @@ public class Leao extends Animal {
 	@Override
 	public void correr() {
 		System.out.println("Leão correndo");
-
+	}
+	
+	public String som() {
+		return "Leão emitindo som";
 	}
 
 }

@@ -18,5 +18,9 @@ public class Hiena extends Animal {
 		System.out.println("Hiena correndo");
 
 	}
+	
+	public String som() {
+		return "Hiena emitindo som";
+	}
 
 }

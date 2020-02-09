@@ -16,5 +16,8 @@ public class Cachorro extends Animal {
 	public void correr() {
 		System.out.println("O cachorro  está correndo.");
 	}
-
+	
+	public String som() {
+		return "O cachorro está latindo!!!";
+	}
 }

@@ -19,4 +19,8 @@ public class Crocodilo extends Animal {
 
 	}
 	
+	public String som() {
+		return "Crocodilo emitindo som";
+	}
+	
 }

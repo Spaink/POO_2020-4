@@ -19,4 +19,8 @@ public class Elefante extends Animal {
 
 	}
 	
+	public String som() {
+		return "Elefante emitindo som";
+	}
+	
 }

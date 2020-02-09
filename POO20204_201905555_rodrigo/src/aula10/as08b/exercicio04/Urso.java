@@ -16,6 +16,9 @@ public class Urso extends Animal {
 	@Override
 	public void correr() {
 		System.out.println("Urso correndo");
-
+	}
+	
+	public String som() {
+		return "Urso emitindo som";
 	}
 }

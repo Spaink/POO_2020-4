@@ -16,7 +16,10 @@ public class Lobo extends Animal {
 	@Override
 	public void correr() {
 		System.out.println("Lobo correndo");
-
+	}
+	
+	public String som() {
+		return "Lobo emitindo som";
 	}
 	
 }

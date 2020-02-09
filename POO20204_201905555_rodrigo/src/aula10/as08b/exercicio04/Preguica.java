@@ -21,4 +21,8 @@ public class Preguica extends Animal {
 	public void subir() {
 		System.out.println("A preguiça está subindo na árvore");
 	}
+	
+	public String som() {
+		return "Preguiça emitindo som";
+	}
 }

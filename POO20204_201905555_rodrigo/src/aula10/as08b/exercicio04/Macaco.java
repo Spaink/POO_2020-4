@@ -16,7 +16,10 @@ public class Macaco extends Animal {
 	@Override
 	public void correr() {
 		System.out.println("Macaco correndo");
-
+	}
+	
+	public String som() {
+		return "Macaco emitindo som";
 	}
 
 }
